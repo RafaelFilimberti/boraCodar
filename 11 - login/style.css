@@ -22,7 +22,7 @@ button {
 
 a {
   text-decoration: none;
-  color: #7c3aed;
+  color: #a1290e;;
   font-weight: 700;
 }
 
@@ -42,14 +42,16 @@ a:hover {
   width: 50%;
 }
 
+
 img {
-  width: 100%; /* garantir que a imagem fique 100% */
+   width: 100%; /* garantir que a imagem fique 100% */
   object-fit: cover; /* cobrir tudo que existe na página, aumentar ou diminuir a página vai se encaixar */
 }
 
+
 header img {
-  height: 5.4rem;
-  width: 16rem;
+  height: 10rem;
+  width: 32rem;
 }
 
 #page > div {
@@ -68,7 +70,7 @@ main {
 h1 {
   font-size: 3.6rem;
   line-height: 5.5rem;
-  color: #1e293b;
+  color: #cf480a;
 }
 
 h1 + p {
@@ -108,7 +110,7 @@ input {
 
 input.focus,
 input:hover {
-  border: 1px solid #7c3aed;
+  border: 1px solid #b12708;;
   outline: 0;
 }
 
@@ -152,7 +154,7 @@ label {
   display: none;
 }
 form button {
-  background: #7c3aed;
+  background: black;
   border-radius: 0.4rem;
   display: flex;
   justify-content: center;
@@ -172,21 +174,23 @@ form button:focus {
 }
 
 form button:hover {
-  background: #9f67ff;
+  background: #5c1100;
 }
 
 .create-account {
   color: #475569;
 }
 
+
+
 @media (max-width: 900px) {
   #page {
      width: 100%;
   }
 
-   #page > img {
+    #page > img {
      display: none;
-  }
+  } 
 
   #page > div {
     padding: 11rem;
