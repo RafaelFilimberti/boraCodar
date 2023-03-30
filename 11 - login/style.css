@@ -32,6 +32,7 @@ a:hover {
 
 #page {
   height: 100vh;
+  background-color: #d3b89d;
 }
 
 .flex {
@@ -39,7 +40,8 @@ a:hover {
 }
 
 #page > * {
-  width: 50%;
+  width: 70%;
+  font-weight: 700;
 }
 
 
@@ -59,7 +61,7 @@ header img {
 }
 
 main {
-  margin-top: 11.4rem; /* Vai colocar a distancia dessa caixa para o logo */
+  /* margin-top: 0.1rem; */ /* Vai colocar a distancia dessa caixa para o logo */
   max-width: 38.4rem;
 }
 
@@ -186,7 +188,7 @@ form button:hover {
 @media (max-width: 900px) {
   #page {
      width: 100%;
-  }
+       }
 
     #page > img {
      display: none;
