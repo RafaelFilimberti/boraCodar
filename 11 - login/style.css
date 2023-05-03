@@ -13,7 +13,7 @@
 
 body {
   font-size: 1.6rem;
-}
+    }
 
 button {
   all: unset; /* Tira todas as propriedades de botão */
@@ -33,20 +33,20 @@ a:hover {
 #page {
   height: 100vh;
   background-color: #d3b89d;
-}
+   }
 
 .flex {
   display: flex; /* Classe utilitaria vai ter apenas uma propriedade e pode ser usada mais vezes */
-}
+    }
 
 #page > * {
   width: 70%;
   font-weight: 700;
-}
+   }
 
 
 img {
-   width: 100%; /* garantir que a imagem fique 100% */
+  width: 100%; /* garantir que a imagem fique 100% */
   object-fit: cover; /* cobrir tudo que existe na página, aumentar ou diminuir a página vai se encaixar */
 }
 
@@ -54,16 +54,16 @@ img {
 header img {
   height: 10rem;
   width: 32rem;
-}
+  }
 
 #page > div {
   padding: 4rem 11.2rem; /* 4rem em cima e embaixo e 11.2 nas laterais */
-}
+  }
 
 main {
-  /* margin-top: 0.1rem; */ /* Vai colocar a distancia dessa caixa para o logo */
+  margin-top: 11rem;  /* Vai colocar a distancia dessa caixa para o logo  */
   max-width: 38.4rem;
-}
+  }
 
 .headline {
   max-width: 35rem;
@@ -82,7 +82,7 @@ h1 + p {
 
 form {
   margin-top: 4rem;
-}
+  }
 
 .input-wrapper {
   position: relative;
